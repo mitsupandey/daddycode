@@ -1,4 +1,17 @@
-# My PC: 1440p at 15.6 inch
+----------Instructions------------------
+run: rm ~/.config/dunst/dunstrc
+run: cp dunstrc ~/.config/dunst/dunstrc
+
+If error:
+
+run: mkdir ~/.config/dunst
+run: cp dunstrc ~/.config/dunst/dunstrc
+
+REFRESH DUNST: killall dunst && dunst &
+
+REMOVE THIS PART FROM THIS FILE AFTER YOU'RE DONE READING IT
+--------------------------------
+
 [global]
     follow = keyboard
     width = (0, 500)
