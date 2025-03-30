@@ -45,3 +45,4 @@ if [ ! -z "${RofiSel}" ] ; then
     dunstify "t1" -a " ${RofiSel}" -i "${cacheDir}/${gtkTheme}/${RofiSel}" -r 91190 -t 2200
 fi
 
+

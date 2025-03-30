@@ -122,4 +122,3 @@ cat $modules_dir/footer.jsonc >> $conf_file
 
 $ScrDir/wbarstylegen.sh
 
-
